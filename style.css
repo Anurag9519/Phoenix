@@ -1,0 +1,13 @@
+.navbar-brand {
+  font-weight: bold;
+  color-adjust: #aaaaaa;
+}
+.img-thumbnail .btn {
+  margin-left: 15%;
+}
+p {
+  position: relative;
+}
+i {
+  position: relative;
+}

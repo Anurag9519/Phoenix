@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Index</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+  </head>
+  <link rel="stylesheet" href="style.css" />
+
+  <style>
+    #story img {
+      height: 500px;
+      width: 100%;
+    }
+    #story h2 {
+      padding-top: 30px;
+      padding-bottom: 30px;
+    }
+  </style>
+  <body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light" id="navbar">
+      <div class="container">
+        <a href="index.html" class="navbar-brand" id="index"> Phoenix! </a>
+        <button
+          class="navbar-toggler"
+          data-target="#pagedetails"
+          data-toggle="collapse"
+        >
+          Menu
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="pagedetails"
+        >
+          <ul class="navbar-nav">
+            <!-- mr-only -->
+            <li class="nav-item">
+              <a href="our-story.html" class="nav-link" id="story"
+                >Our Story <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="courses.html" class="nav-link" id="courses">Courses</a>
+            </li>
+            <li class="nav-item">
+              <a href="signup.html" class="nav-link" id="signup">SignUp</a>
+            </li>
+            <li class="nav-item">
+              <a href="faq.html" class="nav-link" id="faq">FAQs</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link" id="contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container" id="story" style="margin-top: 70px">
+      <h2>
+        We are bunch of awesome people working together to make you awesome
+      </h2>
+
+      <img
+        src="https://cdn.ila-france.com/wp-content/uploads/2015/02/our-students-1750x660-1.jpg"
+        alt="cover"
+      />
+
+      <div class="row text-center">
+        <div class="col-md-4">
+          <h2>Who We Are</h2>
+          <p style="text-align: justify">
+            Accusantium quisque aliquam enim aliquid illo, orci incididunt
+            aptent cumque? Curae natoque? Cupiditate, aliquid quibusdam suscipit
+            sit justo facilis
+          </p>
+        </div>
+        <div class="col-md-4">
+          <h2>What We Do</h2>
+          <p style="text-align: justify">
+            Pharetra pulvinar molestias quasi fusce? Purus incididunt officia
+            ullamco accusantium suscipit eius? Non, placeat, exercitation quidem
+            lacus voluptatum unde hendrerit
+          </p>
+        </div>
+        <div class="col-md-4">
+          <h2>What We Love</h2>
+          <p style="text-align: justify">
+            Nisl, ullamcorper cursus magnam, maecenas debitis, nec condimentum
+            lectus nascetur. Accusamus adipisicing? Parturient lacinia dis! Ipsa
+            nascetur euismod? Accumsan eiusmod
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="text-center" style="margin-top: 20px">
+        Copyright &copy; 2020Brain4ce Education Solutions Pvt. Ltd. All rights
+        reserved.
+        <a href="#terms" data-toggle="modal">Terms and Conditions</a>
+      </div>
+
+      <div class="modal fade" id="terms">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Terms and Conditions</h5>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body" style="text-align: justify">
+              <p>
+                In addition to any subscription fees you pay, you are
+                responsible for paying any internet connection or other
+                telecommunications charges that you may incur by accessing the
+                premium services or using the services available on it. For
+                example, if you use any of our mobile services then your network
+                operator may charge you for data or messaging services.
+              </p>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-dismiss="modal"
+              >
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <script src="styling.js"></script>
+  </body>
+</html>

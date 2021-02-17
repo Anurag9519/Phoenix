@@ -4,7 +4,7 @@ tour.addSteps([
   {
     element: "#index",
     placement: "bottom",
-    title: "Welcome to theb1 Phoenix",
+    title: "Welcome to the Phoenix",
     content: "Let me guide you!!",
   },
   {
